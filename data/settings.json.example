@@ -1,0 +1,21 @@
+{
+  "jira": {
+    "base_url": "https://your-domain.atlassian.net",
+    "auth_type": "basic",
+    "email": "you@company.com",
+    "api_token": "your_atlassian_api_token_here"
+  },
+  "llm": {
+    "provider": "groq",
+    "groq_api_key": "your_groq_api_key_here",
+    "groq_model": "llama-3.3-70b-versatile",
+    "ollama_base_url": "http://localhost:11434",
+    "ollama_model": "llama3.1"
+  },
+  "template": {
+    "type": "default",
+    "source_filename": null,
+    "content": ""
+  }
+}
+
